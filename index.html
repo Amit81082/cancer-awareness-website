@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Cancer Awareness & Support</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Your premium CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar fade-in" role="banner">
+    Cancer Awareness & Support
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero" aria-labelledby="hero-title">
+      <img src="https://images.unsplash.com/photo-1554244933-d876deb6b2ff?auto=format&fit=crop&w=1500&q=80"
+        alt="Hands together symbolizing care and support" class="hero-image" />
+
+      <div class="hero-text" id="hero-title" role="region" aria-label="Main message">
+        <h1>Together, We Fight Cancer</h1>
+        <p>Awareness saves lives. Join our community to learn, support and spread hope.</p>
+        <div style="margin-top:16px;">
+          <a href="#contact" class="btn" style="text-decoration:none;">Get Involved</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="contact-section" aria-labelledby="contact-heading">
+      <div class="container">
+        <h2 id="contact-heading">Contact & Support</h2>
+        <p>If you have questions, want to volunteer or need emotional support — reach out. We're here.</p>
+
+        <div class="form-container fade-in" id="form-wrap">
+          <!-- Inline messages -->
+          <div id="form-message" aria-live="polite" style="margin-bottom:12px;"></div>
+
+          <form class="contact-form" id="contact-form" novalidate>
+            <div>
+              <label for="name">Full Name</label>
+              <input type="text" id="name" name="name" placeholder="Your full name" required />
+            </div>
+
+            <div>
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" placeholder="you@example.com" required />
+            </div>
+
+            <div>
+              <label for="message">Your Message</label>
+              <textarea id="message" name="message" rows="5" placeholder="Write your message..." required></textarea>
+            </div>
+
+            <div style="display:flex; gap:12px; align-items:center; margin-top:6px;">
+              <button type="submit" class="btn" id="submit-btn">Send Message</button>
+              <div id="form-spinner" aria-hidden="true" style="display:none;">Sending...</div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- QUOTES SECTION -->
+    <section class="quotes-section" aria-labelledby="quotes-heading">
+      <h2 id="quotes-heading" class="fade-in">Motivational Quotes</h2>
+
+      <div class="quote-box fade-in" id="quote-box" role="article" aria-live="polite">
+        <p id="quote-text">Loading an inspiring quote...</p>
+        <p id="quote-author" style="opacity:0.8; margin-top:10px; font-size:0.95rem;"></p>
+      </div>
+
+      <div style="text-align:center;">
+        <button id="new-quote-btn" class="btn">Get New Quote</button>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer style="text-align:center; padding:28px 16px; color:#faf6f6; background-color: rgb(165, 63, 233);">
+    © <span id="year"></span> Cancer Awareness & Support · Built by Amit
+  </footer>
+
+  <!-- Script -->
+  <script src="script.js"></script>
+</body>
+
+</html>
