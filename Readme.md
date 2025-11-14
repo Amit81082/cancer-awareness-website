@@ -8,6 +8,13 @@ This website is designed to spread cancer awareness, share important facts, give
 
 Built with a clean UI, responsive layout, and soft emotional theme.
 
+<img width="1192" height="628" alt="image" src="https://github.com/user-attachments/assets/ebd171a7-22d5-4b1d-964b-eb3166ed1785" />
+<img width="1044" height="644" alt="image" src="https://github.com/user-attachments/assets/68112f6e-869f-44e0-93d7-c79ab4e1b34b" />
+<img width="950" height="644" alt="image" src="https://github.com/user-attachments/assets/714b197e-90d0-4b4d-a85d-c95ad1669538" />
+
+
+
+
 ## Features
 
 Awareness-focused landing page
